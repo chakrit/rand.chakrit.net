@@ -1,0 +1,21 @@
+{
+  "name": "rand.chakrit.net",
+  "version": "0.0.0",
+  "description": "A site that streams out random bytes as fast as possible, for testing network speeds.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chakrit/rand.chakrit.net.git"
+  },
+  "keywords": [
+    "random"
+  ],
+  "author": "Chakrit Wichian <service@chakrit.net> (http://chakrit.net)",
+  "license": "BSD",
+  "dependencies": {
+    "randstream": "~0.1.0"
+  }
+}
