@@ -4,6 +4,7 @@
   "description": "A site that streams out random bytes as fast as possible, for testing network speeds.",
   "main": "index.js",
   "scripts": {
+    "preinstall": "npm rebuild",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,6 +17,7 @@
   "author": "Chakrit Wichian <service@chakrit.net> (http://chakrit.net)",
   "license": "BSD",
   "dependencies": {
-    "randstream": "~0.1.0"
+    "randstream": "~0.1.0",
+    "npid": "~0.3.1"
   }
 }

@@ -1,6 +1,10 @@
 
 var http       = require('http')
+  , npid       = require('npid')
   , RandStream = require('randstream');
+
+try { npid.create(__dirname + '/rand.chakrit.net.pid'); }
+catch (e) { console.error(e); process.exit(1); }
 
 var server = http.createServer(function(req, resp) {
   var firehose = new RandStream();
