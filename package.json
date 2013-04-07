@@ -17,7 +17,7 @@
   "author": "Chakrit Wichian <service@chakrit.net> (http://chakrit.net)",
   "license": "BSD",
   "dependencies": {
-    "randstream": "~0.1.0",
+    "randstream": "~0.2.0",
     "npid": "~0.3.1"
   }
 }
