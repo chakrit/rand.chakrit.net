@@ -1,6 +1,6 @@
 {
   "name": "rand.chakrit.net",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A site that streams out random bytes as fast as possible, for testing network speeds.",
   "main": "index.js",
   "scripts": {
